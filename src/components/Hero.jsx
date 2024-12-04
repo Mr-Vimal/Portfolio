@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 // import profilepic from "../assets/profilepic.png";
+import CV from '../assets/Vimal-resume.pdf'
 
 const Hero = () => {
   return (
@@ -16,14 +17,14 @@ const Hero = () => {
           </p>
           <div>
             <a
-              href="@"
+              href={CV}
               className="shadow-2xl mr-4 inline-flex items-center px-6 py-4 mt-8 font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110 "
-              role="button"
+              role="button" download="Vimal-Resume"
             >
               Download CV
             </a>
             <a
-              href="./Portfoliyo.jsx"
+              href="./projects"
               className=" inline-flex items-center px-6 py-4 mt-8 font-semibold text-white border rounded-lg transition-all duration-300 hover:scale-110 "
               role="button"
             >
